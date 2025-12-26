@@ -9,7 +9,7 @@ import RichTextEditor from '../components/RichTextEditor'
 import Card from '../components/ui/Card'
 import { generateId } from '../utils/helpers'
 import { useToast } from '../hooks/useToast'
-import type { Course, Section, Lesson } from '../types'
+import type { Course, Section } from '../types'
 
 const CourseForm: React.FC = () => {
   const navigate = useNavigate()

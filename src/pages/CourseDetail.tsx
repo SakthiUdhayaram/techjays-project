@@ -7,7 +7,7 @@ import Card from '../components/ui/Card'
 import Button from '../components/ui/Button'
 import Badge from '../components/ui/Badge'
 import Modal from '../components/ui/Modal'
-import { calculateCourseProgress, formatDate } from '../utils/helpers'
+import { calculateCourseProgress } from '../utils/helpers'
 import DOMPurify from 'dompurify'
 import type { Course } from '../types'
 

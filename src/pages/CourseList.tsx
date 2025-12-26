@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useAppSelector, useAppDispatch } from '../hooks/redux'
-import { setSearchQuery, setCategory, setDifficulty, setSortBy, resetFilters } from '../store/slices/filtersSlice'
+import { setSearchQuery, setCategory, setDifficulty, setSortBy } from '../store/slices/filtersSlice'
 import { deleteCourse, deleteCourses } from '../store/slices/coursesSlice'
 import Card from '../components/ui/Card'
 import Button from '../components/ui/Button'
